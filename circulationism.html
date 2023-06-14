@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALVADOR DALI LANDING PAGE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- nav -->
+      <nav>
+        <div class="nav-1">
+          <p>Post-Internet Appropriation </p>
+        </div>
+      </nav>
+
+      <nav2>
+        <div class="nav-2">
+         <termos>
+           <div class="marqueetermos"> <a href="dali.html" class="#">Appropriation</a> <a href="circulationism.html" class="#">circulationism</a> <a href="detournement.html" class="#">detournement</a> <a href="glitch.html" class="#">glitch</a> <a href="Postproduction.html" class="#">Postproduction</a> <a href="Transformation.html" class="#">Transformation</a>  <a href="Readymades.html" class="#">Readymades </a>   <a href="subversion.html" class="#">Subversion</a>   <a href="Versioning.html" class="#">Versioning</a>  <a href="index.html" class="#">Appropriation</a> <a href="circulationism.html" class="#">circulationism</a> <a href="detournement.html" class="#">detournement</a> <a href="glitch.html" class="#">glitch</a> <a href="Postproduction.html" class="#">Postproduction</a> <a href="Transformation.html" class="#">Transformation</a>  <a href="compile .html" class="#">compile </a>Readymades   <a href="subversion.html" class="#">Subversion</a>   <a href="Versioning.html" class="#">Versioning</a>  <a href="index.html" class="#">Appropriation</a> <a href="circulationism.html" class="#">circulationism</a> <a href="detournement.html" class="#">detournement</a> <a href="glitch.html" class="#">glitch</a> <a href="Postproduction.html" class="#">Postproduction</a> <a href="Transformation.html" class="#">Transformation</a>  <a href="compile .html" class="#">compile </a>Readymades   <a href="subversion.html" class="#">Subversion</a>   <a href="Versioning.html" class="#">Versioning</a> </div> </termos>  
+       </div>
+   </nav2>
+
+      <!-- site content -->
+      <div class="content-wrapper">
+        <div class="col-1 col">
+          <div class="definition">
+          <h1>circulationism:</h1>
+            <h2><br>An emphasis on circulating goods as opposed to producing them.
+              </h2>
+          </div>
+          <div class="hero-img">
+            <div id="myDiv"></div>
+          </div>
+        </div>
+
+        <div class="col-2 col">
+          <div class="box">
+            <p id="myDisplay"></p>
+          </div>
+          </div>
+
+
+        <div class="col-3 col">
+          <quote >
+            <h1>quote:</h1>
+            <br>
+            <div id="generator" class="container-fluid">
+                <div class="col-xs-10 col-xs-offset-1 visible-sm visible-md visible-lg">
+                  <h3 id="quoteBodyDesktop"></h3>
+                  <br>
+                  <br>
+                  <h4 id="quoteAuthorDesktop"></h4>
+                </div>
+              </div>
+          </quote>
+        
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+      gsap.from("nav > div,nav2, .col", 2, {
+            delay: 0.5,
+            scale: 0,
+            ease: "power3.inOut",
+            stagger: {
+                  amount: 0.3
+            }
+      })
+  </script>
+  <script src="circulationism.js"></script>
+  
+</html>
